@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/bs/js/bootstrap.min.js"></script>
+    <title>Login : Portal Akademik</title>
+    <style>
+        .bg-color {
+            background-color: cyan;
+        }
+        .margin-left-img {
+            margin-left: 80px;
+        }
+        .bg-cover {
+            background-image: url("assets/images/harvardpic2.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+        <div class="mx-auto">
+            <a class="navbar-brand align-middle" href="#">
+                <img src="assets/images/harvardbrand.png" alt="" height="100" class="d-inline-block margin-left-img">
+                <div style="text-transform: uppercase; font-family: verdana; font-weight: bold;">Harvard University</div> 
+            </a>
+        </div>
+    </nav>
+    <div class="bg-cover ">
+        <div class="loginBox mx-auto"> 
+            <h3>PORTAL AKADEMIK</h3>
+            <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
+            <form action="login.php" method="post">
+                <div class="inputBox"> <input id="uname" type="text" name="Username" placeholder="NIM"> <input id="pass" type="password" name="Password" placeholder="Password"> </div> <input type="submit" name="" value="Login">
+            </form> 
+            <a href="#">Lupa Password?<br> </a>
+            <div class="text-center">
+                <a href="">Daftar?</a>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
