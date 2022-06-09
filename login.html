@@ -7,15 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="lib/bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="lib/bs/js/bootstrap.min.js"></script>
+    <script src="lib/bs/js/bootstrap.min.js"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <title>Login : Portal Akademik</title>
     <style>
         .bg-color {
             background-color: cyan;
         }
+
         .margin-left-img {
             margin-left: 10px;
         }
+
         .bg-cover {
             background-image: url("assets/images/harvardpic2.jpg");
             background-size: cover;
@@ -30,25 +34,32 @@
     <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-1">
         <div>
-            <a class="navbar-brand align-middle" href="#" style="position: absolute; display: flex; align-items: center;">
+            <a class="navbar-brand align-middle" href="#"
+                style="position: absolute; display: flex; align-items: center;">
                 <img src="assets/images/harvardbrand.png" alt="" height="80" class="d-inline-block margin-left-img">
-                <div style="text-transform: uppercase; font-family: verdana; font-weight: bold;">Harvard University</div> 
+                <div style="text-transform: uppercase; font-family: 'Graduate', cursive; font-weight: bold; font-size: 25px;">Harvard University
+                </div>
             </a>
         </div>
     </nav>
     <div class="bg-cover ">
-        <div class="loginBox mx-auto"> 
+        <div class="loginBox mx-auto">
             <h3>PORTAL AKADEMIK</h3>
             <img class="user" src="https://i.ibb.co/yVGxFPR/2.png" height="100px" width="100px">
-            <form action="login.php" method="post">
-                <div class="inputBox"> <input id="uname" type="text" name="Username" placeholder="NIM"> <input id="pass" type="password" name="Password" placeholder="Password"> </div> <input type="submit" name="" value="Login">
-            </form> 
-            <a href="#">Lupa Password?<br> </a>
-            <div class="text-center">
+            <form action="" method="post">
+                <div class="inputBox"> <input id="uname" type="text" name="Username" placeholder="NIM"> <input id="pass"
+                        type="password" name="Password" placeholder="Password"> </div> <input type="submit" name=""
+                    value="Login">
+            </form>
+            <hr>
+            <div style="display: flex;">
+                <a href="#" style="margin-right:7px;">Lupa Password?</a>
                 <a href="">Daftar?</a>
             </div>
-            
+            <hr>
         </div>
+
+    </div>
     </div>
 
 
