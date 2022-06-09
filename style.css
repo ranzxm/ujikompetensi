@@ -89,9 +89,10 @@ a:hover {
     color: #757575
 }
 
-p {
-    color: #0000ff
-}
+
+.bg-nav-grey {
+    background-color: rgb(25, 141, 141);
+  }
 @media only screen and (max-width: 600px) {
     .loginBox {
         width: 350px;
